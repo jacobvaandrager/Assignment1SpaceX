@@ -1,7 +1,58 @@
 
 
-var number1 = 16;
-var number2 = 5;
-var result = number1 % number2;
+var ship = {
+				parameters: {
+					fuel: "290000000",
+					throttle: "560",
+					speed: "3600",
+					acceleration: "35",
 
-alert(result);
+				},
+
+				environment: {
+					gravity: "2.4",
+					distanceTraveled: "985624541",
+					atmosphere: "96",
+				},
+
+				supplies: {
+					food: "98%",
+					water: "78%",
+				},
+
+				metrics: {
+					gravityConverter: "5.2",
+					marsMilesToEarthMilesConverter: "96",
+				},
+};
+
+document.getElementById("fuel").innerHTML = ship.parameters.fuel;
+document.getElementById("throttle").innerHTML = ship.parameters.throttle;
+document.getElementById("speed").innerHTML = ship.parameters.speed;
+document.getElementById("acceleration").innerHTML = ship.parameters.acceleration;
+
+document.getElementById("gravity").innerHTML = ship.environment.gravity;
+document.getElementById("distanceTraveled").innerHTML = ship.environment.distanceTraveled;
+document.getElementById("atmosphere").innerHTML = ship.environment.atmosphere;
+
+document.getElementById("food").innerHTML = ship.supplies.food;
+document.getElementById("water").innerHTML = ship.supplies.water;
+
+document.getElementById("gravityConverter").innerHTML = ship.metrics.gravityConverter;
+document.getElementById("marsMilesToEarthMilesConverter").innerHTML = ship.metrics.marsMilesToEarthMilesConverter;
+
+console.log(ship.parameters.fuel);
+
+
+/* Seconds instance
+var yourMotorcycle = {brand: 'Triumph', color: 'black', engine: 660};
+
+console.log(yourMotorcycle.color);
+*/
+
+/* Objects in objects
+var tire = {material: 'rubber', size: 110};
+myMotorcycle.frontTire = {material: 'rubber', size: 110};
+myMotorcycle.rearTire = {material: 'rubber', size: 220};
+
+*/
