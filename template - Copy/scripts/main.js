@@ -2,29 +2,31 @@
 
 var ship = {
 				parameters: {
-					fuel: "290000000",
-					throttle: "560",
-					speed: "3600",
-					acceleration: "35",
+					fuel: 290000000,
+					throttle: 560,
+					speed: 3600,
+					acceleration: 35,
+					movement: 0,
 
 				},
 
 				environment: {
-					gravity: "2.4",
-					distanceTraveled: "985624541",
-					atmosphere: "96",
+					gravity: 2.4,
+					distanceTraveled: 0,
+					atmosphere: 96,
 				},
 
 				supplies: {
-					food: "98%",
-					water: "78%",
+					food: 98,
+					water: 78,
 				},
 
 				metrics: {
-					gravityConverter: "5.2",
-					marsMilesToEarthMilesConverter: "96",
+					gravityConverter: 5.2,
+					marsMilesToEarthMilesConverter: 96,
 				},
 };
+
 
 document.getElementById("fuel").innerHTML = ship.parameters.fuel;
 document.getElementById("throttle").innerHTML = ship.parameters.throttle;

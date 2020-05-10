@@ -2,5 +2,96 @@
 body{
 	font-family: helvetica;
 	color: #FFFFFF;
-	background-color: #444444;
+	background-color: #111E36;
+}
+
+h1{
+
+top: 2%;
+left: 50%;
+text-align: center;
+
+}
+
+h2{
+
+
+top: 10%;
+left: 50%;
+text-align: center;
+
+}
+
+.box {
+
+position: absolute;
+width: 90%;
+height: 47%;
+left: 2%;
+top: 20%;
+background: #444444;
+border-radius: 20px; 
+}
+
+
+
+.text1 {
+
+position: absolute;
+width: 25%;
+height: 50%;
+left: 10%;
+top: 25%;
+
+}
+
+.text2 {
+
+position: absolute;
+width: 25%;
+height: 50%;
+left: 30%;
+top: 25%;
+
+}
+
+.text3 {
+
+position: absolute;
+width: 25%;
+height: 50%;
+left: 50%;
+top: 25%;
+
+}
+
+.text4 {
+
+position: absolute;
+width: 25%;
+height: 50%;
+left: 70%;
+top: 25%;
+
+}
+
+.moveEarth {
+
+position: absolute;
+left: 2%;
+top: 90%;
+}
+
+.moveMars {
+
+position: absolute;
+left: 90%;
+top: 90%;
+}
+
+.moveSpaceship {
+
+position: absolute;
+left: 120px;
+top: 91.5%;
 }
